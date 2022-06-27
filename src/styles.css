@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+}
+
+#outer {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin-top: 150px;
+  margin-left: 250px;
+}
+
+#inner {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top: 23px;
+  left: 23px;
+  background-color: whitesmoke;
+}
+
+#bts {
+  margin-top: 40px;
+  margin-left: 245px;
+}
+
+.circle {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top: 23px;
+  left: 23px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  transition: all ease-in-out 0.2s;
+}
+
+.square {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top: 23px;
+  left: 23px;
+  background-color: whitesmoke;
+  transition: all ease-in-out 0.2s;
+}
